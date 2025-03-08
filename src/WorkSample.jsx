@@ -1,7 +1,9 @@
-import React from 'react'
+import React, {useState} from 'react';
 
 export default function WorkSample({work}) {
-  const myStyle={
+  const [myData, setMyData]=useState(1);
+  //let myData = 0;
+  const design={
       border: "1px solid red",
       padding: "10px",
       backgroundColor: "green",
@@ -9,12 +11,17 @@ export default function WorkSample({work}) {
       borderRadius: "10px",
       marginTop: "10px",
   };
+  const changeData = ()=> {
+    setMyData(myData + 1);
+    console.log(myData);
+  };
+
   //const {year, experience, institute} = props;
   return (
-    <div style={myStyle}>
-        <span>{work.year}</span>
-        <h2>{work.experience}</h2>
-        <p>{work.institute}</p>
+    <div style={design}>
+        <h1>Counter {myData}</h1>
+        <p>myData: {myData}</p>
+        <button onClick={changeData}>Update</button>
     </div>
   );
 }
