@@ -9,5 +9,5 @@ export default function LoadUser() {
         .then(console.log);
         /* { status: 'ok', method: 'GET' } */
     },[2]);
-  return <div>LoadUser</div>
+  return <div className="text-cyan-600">LoadUser</div>
 }
