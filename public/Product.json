@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
     {
         "id": 1,
@@ -51,4 +52,59 @@
         "price": 15000,
         "quantity": 10
     }
+=======
+[
+    {
+        "id": 1,
+        "productName": "HeadPhone",
+        "price": 1000,
+        "quantity": 10
+    },
+    {
+        "id": 2,
+        "productName": "Smartphone",
+        "price": 10000,
+        "quantity": 10
+    },
+    {
+        "id": 3,
+        "productName": "Laptop",
+        "price": 15000,
+        "quantity": 10
+    },{
+        "id": 1,
+        "productName": "HeadPhone",
+        "price": 1000,
+        "quantity": 10
+    },
+    {
+        "id": 2,
+        "productName": "Smartphone",
+        "price": 10000,
+        "quantity": 10
+    },
+    {
+        "id": 3,
+        "productName": "Laptop",
+        "price": 15000,
+        "quantity": 10
+    },{
+        "id": 1,
+        "productName": "HeadPhone",
+        "price": 1000,
+        "quantity": 10
+    },
+    {
+        "id": 2,
+        "productName": "Smartphone",
+        "price": 10000,
+        "quantity": 10
+    },
+    {
+        "id": 3,
+        "productName": "Laptop",
+        "price": 15000,
+        "quantity": 10
+    }
+>>>>>>> f0856b8ed05e1826adaa821efd53fe3a71f12f62
 ]
