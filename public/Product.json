@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "productName": "HeadPhone",
+        "price": 1000,
+        "quantity": 10
+    },
+    {
+        "id": 2,
+        "productName": "Smartphone",
+        "price": 10000,
+        "quantity": 10
+    },
+    {
+        "id": 3,
+        "productName": "Laptop",
+        "price": 15000,
+        "quantity": 10
+    },{
+        "id": 1,
+        "productName": "HeadPhone",
+        "price": 1000,
+        "quantity": 10
+    },
+    {
+        "id": 2,
+        "productName": "Smartphone",
+        "price": 10000,
+        "quantity": 10
+    },
+    {
+        "id": 3,
+        "productName": "Laptop",
+        "price": 15000,
+        "quantity": 10
+    },{
+        "id": 1,
+        "productName": "HeadPhone",
+        "price": 1000,
+        "quantity": 10
+    },
+    {
+        "id": 2,
+        "productName": "Smartphone",
+        "price": 10000,
+        "quantity": 10
+    },
+    {
+        "id": 3,
+        "productName": "Laptop",
+        "price": 15000,
+        "quantity": 10
+    }
+]
