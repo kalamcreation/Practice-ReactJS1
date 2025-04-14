@@ -5,6 +5,7 @@ import App from './App'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ErrorPage from './ErrorPage';
 import Layout from './Layout/Layout';
+import User from './User';
 
 import{
   createBrowserRouter,
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "/register",
         element: <div>Register</div>,
+      },
+      {
+        path: "/user/:id",
+        element: <User />,
       },
     ],
   },
