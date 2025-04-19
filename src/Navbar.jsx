@@ -10,7 +10,7 @@ export default function Navbar() {
         <Link to="/register">Register</Link> */}
 
         <NavLink
-        to="/"
+        to="/grandparent"
         className={({ isActive }) => isActive ? "text-danger" : "" }
         >
         Home
@@ -33,6 +33,7 @@ export default function Navbar() {
         >
         User
         </NavLink>
+        {/* <Link to="/grandparent">GrandParent</Link> */}
 
     </div>
   )

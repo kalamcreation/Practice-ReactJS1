@@ -6,6 +6,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ErrorPage from './ErrorPage';
 import Layout from './Layout/Layout';
 import User from './User';
+import GrandParent from './GrandParent';
+import Parent from './Parent';
+import Child from './Child';
 
 import{
   createBrowserRouter,
@@ -34,13 +37,25 @@ const router = createBrowserRouter([
         path: "/user/:id",
         element: <User />,
       },
+      {
+        path: "/grandparent",
+        element: <GrandParent />,
+      },
+      {
+        path: "/parent",
+        element: <Parent />,
+      },
+      {
+        path: "/child",
+        element: <Child />,
+      },
     ],
   },
 ]);
 
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  <React.StrictMode>
     <RouterProvider router={router} />
-  </StrictMode>
-)
+    </React.StrictMode>,
+);
